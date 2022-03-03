@@ -12,3 +12,10 @@ SciKitLearn ML library
 
 ## Dashboard
 ???
+
+# Communication Protocols 
+Team member roles for Week 1
+Jack: 
+Tajah: 
+Ashley: 
+Thomas: 
