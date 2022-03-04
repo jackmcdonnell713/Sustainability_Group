@@ -22,6 +22,8 @@ SciKitLearn ML library
 
 # Communication Protocols 
 How we are communicating:
+
+
 Team member roles for Week 1
 Jack: 
 Tajah: 
