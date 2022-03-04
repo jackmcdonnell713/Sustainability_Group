@@ -25,7 +25,7 @@ Communication primarily through Slack.
 Meeting times per the below zoom meeting schedule
 
 Meeting Times 
-- Saturday 10 AM EST via zoom  Saturday 3 March
+- Saturday 10 AM EST via zoom  Saturday 5 March
 
 Team member roles for Week 1
 Jack: 
