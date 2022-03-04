@@ -1,5 +1,12 @@
 # Sustainability Group 
 
+#Content
+✓ Selected topic 
+✓ Reason why they selected their topic 
+✓ Description of their source of data 
+✓ Questions they hope to answer with the data
+
+
 # Technologies Used
 ## Data Cleaning and Analysis
 Pandas 
@@ -14,6 +21,7 @@ SciKitLearn ML library
 ???
 
 # Communication Protocols 
+How we are communicating:
 Team member roles for Week 1
 Jack: 
 Tajah: 
