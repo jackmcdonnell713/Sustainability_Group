@@ -54,7 +54,7 @@ Postgres SQL
 SciKitLearn ML library 
 
 ## Dashboard
-???
+Tableau Public
 
 # Communication Protocols 
 How we are communicating:
@@ -63,5 +63,5 @@ How we are communicating:
 Team member roles for Week 1
 Jack: 
 Tajah: 
-Ashley: 
+Ashley: Circle
 Thomas: 
