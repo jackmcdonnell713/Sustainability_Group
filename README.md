@@ -1,6 +1,6 @@
 # Sustainability Group 
 
-#Content
+# Content
 ✓ Selected topic 
 ✓ Reason why they selected their topic 
 ✓ Description of their source of data 
