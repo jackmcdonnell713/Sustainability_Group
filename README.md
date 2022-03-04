@@ -1,13 +1,13 @@
 # Sustainability Group 
 
 # Content
-✓ Selected topic 
+**✓ Selected topic **
 China & India Urbanization
 
-✓ Reason why they selected their topic 
+**✓ Reason why they selected their topic **
 By 2050, more than two-thirds global population will live in urban areas.  We need to understand how urbanization impacts demand for corn, wheat, oilseeds and subsequent  protein demand. 
 
-✓ Description of their source of data 
+**✓ Description of their source of data **
 1.	China GDP :  1960 – present
 https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN 
 2.	China population :  1960 – present
@@ -39,7 +39,7 @@ https://woo.opec.org/chapter.php?chapterNr=205&chartID=898
 https://woo.opec.org/chapter.php?chapterNr=211
 
 
-✓ Questions they hope to answer with the data
+**✓ Questions they hope to answer with the data**
 Use Chinese urbanization data to create a model to predict impact of urbanization of other countries, notably India.     
 
 
