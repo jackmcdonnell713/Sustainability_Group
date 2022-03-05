@@ -6,7 +6,7 @@
 
 Urbanization
 
-### Reason why they selected their topic
+### Reason why we selected their topic
 
 For most of human history, people have lived in rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density rural settings to more high-dense, urban settings.  Further, few countries have experience exponential growth in urbanization over a short period of time like China has in recent decades.  
 
