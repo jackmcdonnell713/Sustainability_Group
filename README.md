@@ -16,6 +16,7 @@ Postgres SQL
 
 ## Machine Learning
 SciKitLearn ML library 
+Linear Regression Model
 
 ## Dashboard
 Tableau Public
