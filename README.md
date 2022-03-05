@@ -30,14 +30,15 @@ Use Chinese urbanization data to create a model to predict impact of urbanizatio
 Python, Pandas 
 
 ### Database Storage
-Postgres SQL
+Postgres SQL will be the Database storage we used but for our mockup this week we included a folder.
 
 ### Machine Learning
 Linear Regression, 
-SciKitLearn ML library 
+SciKitLearn ML library are the machine learning dependencies we used for our initial linear regression model.  
+After looking at the mockup and thinking more about what data we want to end up using we might move to a sigmoid function as we expect exponential growth.
 
 ### Dashboard
-Tableau Public
+Tableau Public will be what we use as our visualization tool as we all find the program to be intuitive and fun to use.
 
 ## Communication Protocols 
 Communication primarily through Slack.  
