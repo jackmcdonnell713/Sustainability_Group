@@ -44,8 +44,9 @@ Communication primarily through Slack.
 Meeting times per the below zoom meeting schedule
 
 Meeting Times 
-- Saturday 10 AM EST via zoom  Saturday 5 March
+- Saturday, 5 March @ 10 AM EST via zoom  
 - We met this day for roughly 4 hours with all of us present and engaged.
+- Tuesday, 8 March @ 6 PM CST during class
 
 Team member roles for Week 1
 Jack: X Role
