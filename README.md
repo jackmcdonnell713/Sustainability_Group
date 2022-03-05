@@ -6,7 +6,7 @@
 
 Urbanization & our planet!
 
-### Reason why we selected their topic
+### Reason why we selected this topic
 
 For most of history, humans have lived in low-density, rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density, rural settings dominated by agricultural production to more high-density, urban settings.  Further, very few countries have experienced exponential growth in urbanization over a short period of time like China has in recent decades.  
 
@@ -14,7 +14,7 @@ Despite these observations, it is expected that by 2050, more than two-thirds of
 
 This analysis is important for economists and professionals in the oil, energy, and agricultural sectors who will be impacted by rapid global urbanization over the next 30 years.  We expect that the demand for energy and food will increase, and long-term solutions will need to be adopted to offset the anthropologic effects of urbanization on our planet due to deforestation for increased agricultural land use, notably in LATAM, and increased emissions due to rising global energy demands.  Fortunately, there are renewable energy sources that can be leveraged to offset some of the effects of urbanization in the coming years (i.e. renewable diesel, sustainable aviation fuel, electric cars, etc.).  This analysis will demonstrate the necessity of adopting cleaner, renewable energy sources, and the continued investment in agricultural technology which will enable the production of more food on less land, thus reducing the need for continued deforestation, especially in the rainforests of LATAM. 
 
-### Description of their source of data
+### Description of our source data
 
 For our first deliverable, our mockup database is comprised of four datasets which are listed below.  We expect that we will add additional dependent variables in future weeks. 
 
@@ -35,7 +35,7 @@ This dataset provides total energy consumption by country by year.  The term "en
 https://ourworldindata.org/energy-production-consumption
 
 
-### Questions we hope to answer with the data
+### Questions we hope to answer with these data
 
 We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experirence similiar, exponential growth in urbanization over a short few decades.  
 
@@ -65,8 +65,11 @@ Meeting Times
 
 Team member roles for Week 1
 Jack: X Role
+
 Tajah: Triangle
+
 Ashley: Circle
+
 Thomas: Square Role
 
 Despite assigning specific roles for week one, we found it was much more productive for all members to be actively involved in each process for the first week.  We all chipped in during the dataset selection, picking of technologies used, and construction of the machine learning model mockup.
