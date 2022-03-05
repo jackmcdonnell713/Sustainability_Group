@@ -13,13 +13,13 @@ By 2050, more than two-thirds global population will live in urban areas. We nee
 
 ✓ Description of their source of data
 
-  China GDP : 1960 – present https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
+  GDP : 1960 – present https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
 
-  China population : 1960 – present https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
+  Population : 1960 – present https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
 
-  China urbanization data : 1960 – present https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=CN
+  Urbanization data : 1960 – present https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=CN
 
-  Chinese Energy consumption data : 1985 - present -https://ourworldindata.org/energy-production-consumption
+  Energy consumption data : 1985 - present -https://ourworldindata.org/energy-production-consumption
 
 ✓ Questions they hope to answer with the data
 
@@ -33,6 +33,7 @@ Pandas
 Postgres SQL
 
 ## Machine Learning
+Linear Regression
 SciKitLearn ML library 
 
 ## Dashboard
