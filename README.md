@@ -33,7 +33,7 @@ Python, Pandas
 Postgres SQL
 
 ### Machine Learning
-Linear Regression
+Linear Regression, 
 SciKitLearn ML library 
 
 ### Dashboard
