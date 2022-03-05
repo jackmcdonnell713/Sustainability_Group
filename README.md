@@ -27,7 +27,7 @@ Use Chinese urbanization data to create a model to predict impact of urbanizatio
 
 ## Technologies Used
 ### Data Cleaning and Analysis
-Python, Pandas 
+Python and Pandas was used to read in and create dataframes for the CSV's. Then we extracted China from the 3 DataFrames and concatenate them to their own DataFrame. Once both independent and Dependent variables were created we needed to clean them once again (dropping columns with null values, Transposing the Dataframe and renaming columns).
 
 ### Database Storage
 Postgres SQL will be the Database storage we used but for our mockup this week we included a folder.
