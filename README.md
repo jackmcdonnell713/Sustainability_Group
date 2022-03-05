@@ -1,4 +1,4 @@
-# Sustainability & Economic
+# Sustainability & Economics
 
 ## Content
 ✓ Selected topic
