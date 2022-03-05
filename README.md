@@ -17,29 +17,9 @@ By 2050, more than two-thirds global population will live in urban areas. We nee
 
   China population : 1960 – present https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
 
-  China CO2 emissions : 1960 – present https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=CN
-
   China urbanization data : 1960 – present https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=CN
 
-  China agricultural land : 1960 – 2018 https://data.worldbank.org/indicator/AG.LND.AGRI.K2?locations=CN
-
-  India GDP : 1960 – present https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN
-
-  India population : 1960 – present https://data.worldbank.org/indicator/SP.POP.TOTL?locations=IN
-
-  India CO2 emissions : 1960 - present https://data.worldbank.org/indicator/EN.ATM.CO2E.KT?locations=IN
-
-  India urbanization data : 1960 – present https://data.worldbank.org/indicator/SP.URB.TOTL?locations=IN
-
-  India agricultural land : 1960 – 2018 https://data.worldbank.org/indicator/AG.LND.AGRI.K2?locations=IN
-
-  Daily per capita protein supply : 1961 – 2017 https://ourworldindata.org/grapher/daily-per-capita-protein-supply?tab=chart&country=USA~IND~CHN
-
-  Foods databases : https://ourworldindata.org/food-supply https://www.fao.org/faostat/en/#data/FBS
-
-  POTENTIAL DATA TO EXPOUND UPON https://woo.opec.org/chapter.php?chapterNr=205&chartID=898
-
-  URBANIZATION RATE FOR SELECTED REGIONS https://woo.opec.org/chapter.php?chapterNr=211
+ 
 
 
 ✓ Questions they hope to answer with the data
@@ -65,9 +45,12 @@ Meeting times per the below zoom meeting schedule
 
 Meeting Times 
 - Saturday 10 AM EST via zoom  Saturday 5 March
+- We met this day for roughly 4 hours with all of us present and engaged.
 
 Team member roles for Week 1
-Jack: 
-Tajah: 
+Jack: X Role
+Tajah: Triangle
 Ashley: Circle
-Thomas: 
+Thomas: Square Role
+
+Despite assigning specific roles for week one we found it was much more productive for all members to be actively involved in each process for the first week.  We all chipped in during the data set selection, picking of technologies used, and construction of the machine learning model mockup.
