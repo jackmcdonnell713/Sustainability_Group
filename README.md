@@ -51,7 +51,7 @@ We followed a similar process for our dependent variable, energy use, by first c
 Once both independent and dependent variables were created and concatenated into a single dataframe, we did some data scrubbing (dropping columns with null values, transposing the dataframe, renaming columns, etc).
 
 ### Database Storage
-Postgres SQL will be the Database storage we used but for our mockup this week we included a folder called "Resources" in our gitHub repository.
+Postgres SQL will be the Database storage we used but for our mockup this week we included a folder called "Resources" in our gitHub repository. This is where our provisional database is currently housed. 
 
 ### Machine Learning
 SciKitLearn ML library is the machine learning dependencies we used for our intial model, which is a linear regression model.  
