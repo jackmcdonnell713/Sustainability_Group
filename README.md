@@ -8,26 +8,34 @@ Urbanization
 
 ### Reason why we selected their topic
 
-For most of human history, people have lived in rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density rural settings to more high-dense, urban settings.  Further, few countries have experience exponential growth in urbanization over a short period of time like China has in recent decades.  
+For most of human history, people have lived in rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density, rural settings dominated by agricultural production to more high-dense, urban settings.  Further, very few countries have experience exponential growth in urbanization over a short period of time like China has in recent decades.  
 
-Despite these observations, it is expected that by 2050, more than two-thirds global population will live in urban areas. We need to understand how urbanization impacts demand for food, energy and agrircultural land expansion in the US and LATAM.   We plan to examine independent variables, such as population, population in urban areas, GDP growth as an annual percent, etc., in relation to metrics that measure food and energy use.  One such varaibles is energy consumption per capita (kWh) which is the first metric we are measuring in our first week deliverable.  
+Despite these observations, it is expected that by 2050, more than two-thirds global population will live in urban areas. We need to understand how urbanization, and exponential growth in urbanization of select countries, impacts global demand for food and energy.  The purpose of our final project is to examine independent variables, such as human population, human population living in urban areas, GDP growth as an annual percentage, etc., in relation to metrics that measure food and energy usage.  One such dependent variable is energy consumption per capita (kWh) which is the first metric we are measuring in this week's deliverable.
 
 ### Description of their source of data
 
-GDP : 1960 – present. This dataset is derived from The World Bank and measures annual GDP growth (%) by country.  The dataset was last revised in 2019.  https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
+For our first deliverable, our mockup databsae is comprised of four datasets which are listed below.  We expect that we will add additional dependent variables in future weeks. 
 
-Population : 1960 – present.  This dataset is derived from The World Bank and measures population by country by year.  The dataset was last revised in 2019. https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
+GDP : 1960 – present. 
+This dataset is derived from The World Bank and measures annual GDP growth (%) by country.  The dataset was last revised in 2019.
+https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
 
-Urbanization data : 1960 – present.  This dataset is derived from The World Bank and measures urbanized population by country by year.  The dataset was last revised in 2019. 
+Population : 1960 – present.  
+This dataset is derived from The World Bank and measures population by country by year.  The dataset was last revised in 2019.
+https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
+
+Urbanization data : 1960 – present.  
+This dataset is derived from The World Bank and measures urbanized population by country by year.  The dataset was last revised in 2019. 
 https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=CN
 
-Energy consumption data : 1985 - present.  This dataset provides total energy consumption by country by year.  The term "energy consumption" here means the sum of energy used for electricity, transport and heating.
+Energy consumption data : 1985 - present.  
+This dataset provides total energy consumption by country by year.  The term "energy consumption" here means the sum of energy used for electricity, transport and heating.
 https://ourworldindata.org/energy-production-consumption
 
 
 ### Questions we hope to answer with the data
 
-We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country), this Chinese demand model could be used as a proxy for similiar countries who are expected to experirence similiar, exponential growth in urbanization.  
+We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experirence similiar, exponential growth in urbanization over a short few decades.  This time of analysis is important for economists and professionals in the oil and agricultural sectors who will be impacted by rapid global urbanization in the next 30 years.  We expect that the demand for energy and food will increase, and long-term solutions will need to be made to offset the antropologic effects of urbanization on our planet due to deforestation for increased agriculutal land use, notably in LATAM, and increased emissions due to rising global energy demands.  Fortunately, there are renewable energy sources that can be leveraged to offset some of the effects of urbanization in the coming years.   
 
 
 ## Technologies Used
