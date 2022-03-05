@@ -5,9 +5,11 @@
 
 China & India Urbanization
 
+
 ✓ Reason why they selected their topic
 
 By 2050, more than two-thirds global population will live in urban areas. We need to understand how urbanization impacts demand for food and energy.
+
 
 ✓ Description of their source of data
 
@@ -38,6 +40,7 @@ Foods databases : https://ourworldindata.org/food-supply https://www.fao.org/fao
 POTENTIAL DATA TO EXPOUND UPON https://woo.opec.org/chapter.php?chapterNr=205&chartID=898
 
 URBANIZATION RATE FOR SELECTED REGIONS https://woo.opec.org/chapter.php?chapterNr=211
+
 
 ✓ Questions they hope to answer with the data
 
