@@ -12,6 +12,8 @@ For most of human history, people have lived in rural communities.  Only over th
 
 Despite these observations, it is expected that by 2050, more than two-thirds global population will live in urban areas. We need to understand how urbanization, and exponential growth in urbanization of select countries, impacts global demand for food and energy.  The purpose of our final project is to examine independent variables, such as human population, human population living in urban areas, GDP growth as an annual percentage, etc., in relation to metrics that measure food and energy usage.  One such dependent variable is energy consumption per capita (kWh) which is the first metric we are measuring in this week's deliverable.
 
+This time of analysis is important for economists and professionals in the oil and agricultural sectors who will be impacted by rapid global urbanization in the next 30 years.  We expect that the demand for energy and food will increase, and long-term solutions will need to be made to offset the antropologic effects of urbanization on our planet due to deforestation for increased agriculutal land use, notably in LATAM, and increased emissions due to rising global energy demands.  Fortunately, there are renewable energy sources that can be leveraged to offset some of the effects of urbanization in the coming years.   
+
 ### Description of their source of data
 
 For our first deliverable, our mockup databsae is comprised of four datasets which are listed below.  We expect that we will add additional dependent variables in future weeks. 
@@ -35,7 +37,7 @@ https://ourworldindata.org/energy-production-consumption
 
 ### Questions we hope to answer with the data
 
-We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experirence similiar, exponential growth in urbanization over a short few decades.  This time of analysis is important for economists and professionals in the oil and agricultural sectors who will be impacted by rapid global urbanization in the next 30 years.  We expect that the demand for energy and food will increase, and long-term solutions will need to be made to offset the antropologic effects of urbanization on our planet due to deforestation for increased agriculutal land use, notably in LATAM, and increased emissions due to rising global energy demands.  Fortunately, there are renewable energy sources that can be leveraged to offset some of the effects of urbanization in the coming years.   
+We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experirence similiar, exponential growth in urbanization over a short few decades.  
 
 
 ## Technologies Used
