@@ -28,6 +28,7 @@ POTENTIAL DATA TO EXPOUND UPON https://woo.opec.org/chapter.php?chapterNr=205&ch
 URBANIZATION RATE FOR SELECTED REGIONS https://woo.opec.org/chapter.php?chapterNr=211
 
 ✓ Questions they hope to answer with the data
+
 Use Chinese urbanization data to create a model to predict impact of urbanization of other countries, notably India.
 
 # Technologies Used
