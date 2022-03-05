@@ -37,15 +37,21 @@ https://ourworldindata.org/energy-production-consumption
 
 ### Questions we hope to answer with these data
 
-We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experirence similiar, exponential growth in urbanization over a short few decades.  
+We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experience similiar, exponential growth in urbanization over a short few decades.  
 
 
 ## Technologies Used
 ### Data Cleaning and Analysis
-Python and Pandas was used to read in and create dataframes for the CSV's. Then we extracted China from the 3 DataFrames and concatenate them to their own DataFrame. Once both independent and dependent variables were created, we needed to clean them once again (dropping columns with null values, transposing the dataframe, and renaming columns).
+Python and Pandas was used to read in and create dataframes for the 4 csv files (global GDP, global population, global urban population, global energy use). 
+
+Specifically, we created 3 globa dataframes showing global GDP, global population, and global urban population by country and wear.  Next, we extracted China GDP, China population, and Chinese urban population by year from the 3 global dataframes, and then concatenated the 3 dataframes into a single China dataframe showing China GDP, China population, and China urban population by year in a single dataframe. 
+
+We followed a similar process for our dependent variable, energy use, by first creating a global energy dataframe, then dropping non-China data from the dataframe, and then concatenating the dataframe to the dataframe containing our 3 independent variables.  
+
+Once both independent and dependent variables were created and concatenated into a single dataframe, we did some data scrubbing (dropping columns with null values, transposing the dataframe, renaming columns, etc).
 
 ### Database Storage
-Postgres SQL will be the Database storage we used but for our mockup this week we included a folder called Resources in our gitHub repository. 
+Postgres SQL will be the Database storage we used but for our mockup this week we included a folder called "Resources" in our gitHub repository.
 
 ### Machine Learning
 SciKitLearn ML library is the machine learning dependencies we used for our intial model, which is a linear regression model.  
