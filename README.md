@@ -1,6 +1,6 @@
 # Sustainability Group 
 
-# Content
+## Content
 ✓ Selected topic
 
 China & India Urbanization
@@ -25,21 +25,21 @@ By 2050, more than two-thirds global population will live in urban areas. We nee
 
 Use Chinese urbanization data to create a model to predict impact of urbanization of other countries, notably India.
 
-# Technologies Used
-## Data Cleaning and Analysis
+## Technologies Used
+### Data Cleaning and Analysis
 Pandas 
 
-## Database Storage
+### Database Storage
 Postgres SQL
 
-## Machine Learning
+### Machine Learning
 Linear Regression
 SciKitLearn ML library 
 
-## Dashboard
+### Dashboard
 Tableau Public
 
-# Communication Protocols 
+## Communication Protocols 
 Communication primarily through Slack.  
 Meeting times per the below zoom meeting schedule
 
