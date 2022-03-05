@@ -2,12 +2,15 @@
 
 # Content
 ✓ Selected topic
+
 China & India Urbanization
 
 ✓ Reason why they selected their topic
+
 By 2050, more than two-thirds global population will live in urban areas. We need to understand how urbanization impacts demand for food and energy.
 
 ✓ Description of their source of data
+
 China GDP : 1960 – present https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
 China population : 1960 – present https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
 China CO2 emissions : 1960 – present https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=CN
