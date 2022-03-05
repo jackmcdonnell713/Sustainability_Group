@@ -8,7 +8,7 @@ Urbanization
 
 ✓ Reason why they selected their topic
 
-FOr most of human history, people have lived in rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density rural settings to more high-dense, urban settings.  Further, few countries have experience exponential growth in urbanization over a short period of time like China has in recent decades.  
+For most of human history, people have lived in rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density rural settings to more high-dense, urban settings.  Further, few countries have experience exponential growth in urbanization over a short period of time like China has in recent decades.  
 
 Despite these observations, it is expected that by 2050, more than two-thirds global population will live in urban areas. We need to understand how urbanization impacts demand for food, energy and agrircultural land expansion in the US and LATAM.   We plan to examine independent variables, such as population, population in urban areas, GDP growth as an annual percent, etc., in relation to metrics that measure food and energy use.  One such varaibles is energy consumption per capita (kWh) which is the first metric we are measuring in our first week deliverable.  
 
