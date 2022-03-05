@@ -1,7 +1,5 @@
 # Sustainability & Economics
 
-## Content
-
 ### Selected topic
 
 Urbanization & our planet!
