@@ -1,20 +1,18 @@
 # Sustainability & Economics
 
 ## Content
-✓ Selected topic
+
+### Selected topic
 
 Urbanization
 
-
-✓ Reason why they selected their topic
+### Reason why they selected their topic
 
 For most of human history, people have lived in rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density rural settings to more high-dense, urban settings.  Further, few countries have experience exponential growth in urbanization over a short period of time like China has in recent decades.  
 
 Despite these observations, it is expected that by 2050, more than two-thirds global population will live in urban areas. We need to understand how urbanization impacts demand for food, energy and agrircultural land expansion in the US and LATAM.   We plan to examine independent variables, such as population, population in urban areas, GDP growth as an annual percent, etc., in relation to metrics that measure food and energy use.  One such varaibles is energy consumption per capita (kWh) which is the first metric we are measuring in our first week deliverable.  
 
-
-
-✓ Description of their source of data
+### Description of their source of data
 
 GDP : 1960 – present. This dataset is derived from The World Bank and measures annual GDP growth (%) by country.  The dataset was last revised in 2019.  https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
 
@@ -27,7 +25,7 @@ Energy consumption data : 1985 - present.  This dataset provides total energy co
 https://ourworldindata.org/energy-production-consumption
 
 
-✓ Questions we hope to answer with the data
+### Questions we hope to answer with the data
 
 We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country), this Chinese demand model could be used as a proxy for similiar countries who are expected to experirence similiar, exponential growth in urbanization.  
 
