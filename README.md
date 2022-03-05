@@ -1,4 +1,4 @@
-# Sustainability Group 
+# Sustainability & Economics
 
 ## Content
 ✓ Selected topic
@@ -27,7 +27,7 @@ Use Chinese urbanization data to create a model to predict impact of urbanizatio
 
 ## Technologies Used
 ### Data Cleaning and Analysis
-Pandas 
+Python, Pandas 
 
 ### Database Storage
 Postgres SQL
