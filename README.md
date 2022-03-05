@@ -16,26 +16,22 @@ This analysis is important for economists and professionals in the oil, energy, 
 
 For our first deliverable, our mockup database is comprised of four datasets which are listed below.  We expect that we will add additional dependent variables in future weeks. 
 
-#### GDP : 
-1960 – present. 
+#### GDP : 1960 – present. 
 This dataset is derived from The World Bank and measures annual GDP growth (%) by country.  The dataset was last revised in 2019.
 
 https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
 
-#### Population : 
-1960 – present.  
+#### Population : 1960 – present.  
 This dataset is derived from The World Bank and measures population by country by year.  The dataset was last revised in 2019.
 
 https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
 
-#### Urbanization : 
-1960 – present.  
+#### Urbanization : 1960 – present.  
 This dataset is derived from The World Bank and measures urbanized population by country by year.  The dataset was last revised in 2019. 
 
 https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=CN
 
-#### Energy consumption data : 
-1985 - present.  
+#### Energy consumption data : 1985 - present.  
 This dataset provides total energy consumption by country by year.  The term "energy consumption" here means the sum of energy used for electricity, transport and heating.
 
 https://ourworldindata.org/energy-production-consumption
