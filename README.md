@@ -65,7 +65,7 @@ A deeper approach to this analysis would employ the use of supervised machine le
 
 During the investigative stage of the project, we learned that there is a "extrapolation problem" with using a Random Forest model.  For this reason, we are considering using a Random Forest Regression which avoids the extrapolation problem.  
 
-![Figure 1: Extrapolation Problem with Random Forest}(https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
+![Figure 1: Extrapolation Problem with Random Forest](https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
 
 ### Dashboard
 Tableau Public is what we will use as our visualization tool because we find the program to be intuitive and fun to use.
