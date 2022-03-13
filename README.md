@@ -63,7 +63,7 @@ After examining the results of the linear regression models, we decided to take 
 
 A deeper approach to this analysis would employ the use of supervised machine learning, specifically Random Forest modeling.  Random Forest modeling employees the use smaller, simpler declision trees built from a random subset of features and generally are weak learners on their own.  Collectively, however, the aggregate of these weak learners creates a powerful, robust model!  Random Forest modeling is robust against overfitting given that the weak learners are each trained on a different subset of data, are robust to both outliers and nonlinear data, and enable users to rank the importance of input variables.  At this time, we are working towards creating a Random Forest model for our analysis.  
 
-During the investigative stage of the project, we learned that there is a "extrapolation problem" with using a Random Forest model.  For this reason, we are considering using a Random Forest Regression which avoids the extrapolation problem.  
+During the investigative stage of the project, we learned that there is a "extrapolation problem" with using a Random Forest model.  Because of this, the random forest model assumes that predictions will fall close to the maximim value in the training dataset, as illustrated in the below image.  This is problematic if our goal is to project energy demand subsequent of India's expected, ongoing exponential urbanization.  For this reason, we are now considering using a Random Forest Regression which avoids the extrapolation problem.  
 
 ![Figure 1: Extrapolation Problem with Random Forest](https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
 
