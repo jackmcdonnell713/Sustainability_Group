@@ -65,6 +65,19 @@ A deeper approach to this analysis would employ the use of supervised machine le
 
 During the investigative stage of the project, we learned that there is a "extrapolation problem" with using a Random Forest model.  Because of this, the random forest model assumes that predictions will fall close to the maximim value in the training dataset, as illustrated in the below image.  This is problematic if our goal is to project energy demand subsequent of India's expected, ongoing exponential urbanization.  For this reason, we are now considering using a Random Forest Regression which avoids the extrapolation problem.  
 
+## Issues Had within Machine Learnning for 2nd portion of the project
+
+Issues we had with our data was that is predicted within our current data 
+Our outcome shouldn’t be the current year it should be the year 5-10 years from that variable
+Change the way we think about our independent variables
+Changing the y valuable and shifting it to 5 years in the future
+We will lose the amount of variables as the amount of years we predict in the future 
+Losing 2016-2019 X values
+Pandas shift function 
+Time series forecast – tricky 
+Model remains the same but we are changing what our y value is through a pandas shift function 
+
+
 ![Figure 1: Extrapolation Problem with Random Forest](https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
 ### Dashboard
 Tableau Public is what we will use as our visualization tool because we find the program to be intuitive and fun to use.
