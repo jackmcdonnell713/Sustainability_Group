@@ -65,7 +65,7 @@ A deeper approach to this analysis would employ the use of supervised machine le
 
 During the investigative stage of the project, we learned that there is a "extrapolation problem" with using a Random Forest model.  Because of this, the random forest model assumes that predictions will fall close to the maximim value in the training dataset, as illustrated in the below image.  This is problematic if our goal is to project energy demand subsequent of India's expected, ongoing exponential urbanization.  For this reason, we are now considering using a Random Forest Regression which avoids the extrapolation problem.  
 
-## Issues Had within Machine Learnning for 2nd portion of the project
+# Issues Had within Machine Learnning DataSet 
 
 Issues we had with our data was that is predicted within our current data 
 
