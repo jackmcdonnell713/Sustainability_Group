@@ -110,3 +110,7 @@ Ashley: Circle
 Thomas: Square Role
 
 Despite assigning specific roles for week one, we found it was much more productive for all members to be actively involved in each process for the first week.  We all chipped in during the dataset selection, picking of technologies used, and construction of the machine learning model mockup.
+
+Team member roles for Week 2
+
+We opted to blend all of the shaped roles into a more cooperative strategy where every portion of the project is worked on together as a group.  With that being said, Tajah and I worked primarily on helping with data analysis and the presentation aspect where Ashley dove deep into working through the code tied to our machine learning model and Thomas put in a great deal of time on our Postgres database integration.
