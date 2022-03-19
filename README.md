@@ -87,6 +87,7 @@ Model remains the same but we are changing what our y value is through a pandas 
 
 
 ###![Figure 1: Extrapolation Problem with Random Forest](https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
+
 ### Dashboard
 Tableau Public is what we will use as our visualization tool because we find the program to be intuitive and fun to use.  Here is a link to our google slides that provide a brief outline for the presentation.
 
