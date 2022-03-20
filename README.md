@@ -57,6 +57,18 @@ Once both independent and dependent variables were created and concatenated into
 ### Database Storage
 Postgres SQL will be the Database storage, and we used PGAdmin to manipulate or data sources. We used but for our mockup this week we included a folder called "Resources" in our gitHub repository under the folder "SQL". We showed screen shots of the table creation and joins.
 
+Using pgAdmin, we will export our table join from Postgres SQL to a csv file that will then be used as the input for our machine learning model in Jupyter notebook.
+
+Includes at least two tables
+We created 3 tables, then thru joins combined all three tables on the yrs column - which we then exported as a csv - labeled 'testdata' and worked off of for the balance of our project
+
+
+Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
+Please see the ERD below
+
+![ERD](https://user-images.githubusercontent.com/91917546/159185623-d549e94f-03c0-479a-8ab4-54e99cc9b435.png)
+
+
 ### Machine Learning
 We chose a supervised machine learning model, linear regression, for this analysis because our input data (GDP, urban population, urbanization) has a paired outcome (food demand, energy demand).  We can plug in Chinese urbanization data to train our model to predict outcomes in our India dataset.  This approach is more appropriate than unsupervised machine learning models in which there are no paired inputs and outcomes.
 
