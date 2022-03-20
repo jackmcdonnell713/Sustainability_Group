@@ -16,25 +16,25 @@ This analysis is important for economists and professionals in the oil, energy, 
 
 For our first deliverable, our mockup database is comprised of four datasets which are listed below.  We expect that we will add additional dependent variables in future weeks. 
 
-#### GDP : 1960 – present. 
+#### GDP GROWTH DATA : 1960 – present. 
 This dataset is derived from The World Bank and measures annual GDP growth (%) by country.  The dataset was last revised in 2019.
 
-https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN
+https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=CN
 
 #### Population : 1960 – present.  
 This dataset is derived from The World Bank and measures population by country by year.  The dataset was last revised in 2019.
 
 https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN
 
-#### Urbanization : 1960 – present.  
-This dataset is derived from The World Bank and measures urbanized population by country by year.  The dataset was last revised in 2019. 
+#### Urban Population : 1960 – present.  
+This dataset is derived from The World Bank and measures urbanized population by country by year.  This data measures the percentage of the total population living in Urban areas.  The dataset was last revised in 2019. 
 
 https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=CN
 
-#### Energy consumption data : 1985 - present.  
-This dataset provides total energy consumption by country by year.  The term "energy consumption" here means the sum of energy used for electricity, transport and heating.
+#### Energy consumption data : 1980 - present.  
+This dataset provides total energy consumption by country by year, measured in quads.  "Energy consumption" includes the consumption of petroleum, dry natural gas, coal, net nuclear, hydroelectric, and non-hydroelectric renewable electricity.  Since we decided on a time serier forecast, total energy 5 yr represents the energy consumption five years forward of the current listed year.
 
-https://ourworldindata.org/energy-production-consumption
+https://www.eia.gov/international/data/country/CHN/total-energy/total-energy-consumption?pd=44&p=0000000010000000000000000000000000000000000000000000000000u06&u=0&f=A&v=mapbubble&a=-&i=none&vo=value&t=C&g=none&l=249--38&s=315532800000&e=1546300800000&
 
 
 ### Questions we hope to answer with these data
