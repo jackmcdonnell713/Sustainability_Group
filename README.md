@@ -55,7 +55,7 @@ Once both independent and dependent variables were created and concatenated into
 
 
 ### Database Storage
-Postgres SQL will be the Database storage we used but for our mockup this week we included a folder called "Resources" in our gitHub repository. This is where our provisional database is currently housed. 
+Postgres SQL will be the Database storage we used but for our mockup this week we included a folder called "Resources" in our gitHub repository under the folder "SQL". This is where our provisional database is currently housed. 
 
 ### Machine Learning
 We chose a supervised machine learning model, linear regression, for this analysis because our input data (GDP, urban population, urbanization) has a paired outcome (food demand, energy demand).  We can plug in Chinese urbanization data to train our model to predict outcomes in our India dataset.  This approach is more appropriate than unsupervised machine learning models in which there are no paired inputs and outcomes.
