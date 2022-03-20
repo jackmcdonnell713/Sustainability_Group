@@ -52,11 +52,13 @@ We followed a similar process for our dependent variable, energy use, by first c
 
 Once both independent and dependent variables were created and concatenated into a single dataframe, we did some data scrubbing (dropping columns with null values, transposing the dataframe, renaming columns, etc).
 
+
+
 ### Database Storage
 Postgres SQL will be the Database storage we used but for our mockup this week we included a folder called "Resources" in our gitHub repository. This is where our provisional database is currently housed. 
 
 ### Machine Learning
-We chose a supervised machine learning model, linear regression, for this analysis because our input data (GDP, population, urbanization) has a paired outcome (food demand, energy demand).  We can plug in Chinese urbanization data to train our model to predict outcomes in our India dataset.  This approach is more appropriate than unsupervised machine learning models in which there are no paired inputs and outcomes.
+We chose a supervised machine learning model, linear regression, for this analysis because our input data (GDP, urban population, urbanization) has a paired outcome (food demand, energy demand).  We can plug in Chinese urbanization data to train our model to predict outcomes in our India dataset.  This approach is more appropriate than unsupervised machine learning models in which there are no paired inputs and outcomes.
 
 SciKitLearn ML library is the machine learning dependencies we used for our intial model, which is a linear regression model.  
 After examining the results of the linear regression models, we decided to take a "pause" and really think about the type of analysis that we will use for our final project.  We may use a limear regression, a multivariate regression, or a multivariate multiple regression, depending on what our data is telling us to use. 
@@ -64,6 +66,9 @@ After examining the results of the linear regression models, we decided to take 
 A deeper approach to this analysis would employ the use of supervised machine learning, specifically Random Forest modeling.  Random Forest modeling employees the use smaller, simpler declision trees built from a random subset of features and generally are weak learners on their own.  Collectively, however, the aggregate of these weak learners creates a powerful, robust model!  Random Forest modeling is robust against overfitting given that the weak learners are each trained on a different subset of data, are robust to both outliers and nonlinear data, and enable users to rank the importance of input variables.  At this time, we are working towards creating a Random Forest model for our analysis.  
 
 During the investigative stage of the project, we learned that there is a "extrapolation problem" with using a Random Forest model.  Because of this, the random forest model assumes that predictions will fall close to the maximim value in the training dataset, as illustrated in the below image.  This is problematic if our goal is to project energy demand subsequent of India's expected, ongoing exponential urbanization.  For this reason, we are now considering using a Random Forest Regression which avoids the extrapolation problem.  
+
+### CHANGE IN DATA SET
+Our current data set, 'testdata' has changed from the aforementioned dataset.  We identfied challenges in projecting future energy demand, and as a result pivoted to a new dataset.  Our previous data set only looked at current energy consumption, and since we performed a time series forecast - we needed to relate future energy consumption (in our case 5 years forward) to our current independent variables (Year, GDP Growth and Percent of Population living in Urban Areas). While this has solved the extrapolation problem discussed above, we very likely will pivot our dataset again to utilize a more robust dataset.  We encountered issues with using too small of a dataset since we are effectively removing five rows of data due to our need to utilize energy consumption data 5 years ahead of our other independent variables.
 
 # Issues Had within Machine Learnning DataSet 
 
@@ -101,6 +106,10 @@ Meeting Times
 - Saturday, 5 March @ 10 AM EST via zoom  
 - We met this day for roughly 4 hours with all of us present and engaged.
 - Tuesday, 8 March @ 6 PM CST during class
+- Thursday, 10 March @ 6 PM CST during class
+- Tuesday, 15 March @ 6 PM CST during class
+- Thursday, 17 March @ 6 PM CST during class
+- Saturday, 19 March @ 130 PM CST for approx 3 hours
 
 Team member roles for Week 1
 
