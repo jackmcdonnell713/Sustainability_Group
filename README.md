@@ -84,23 +84,11 @@ Our current data set, 'testdata' has changed from the aforementioned dataset.  W
 
 # Issues Had within Machine Learnning DataSet 
 
-Issues we had with our data was that is predicted within our current data 
+A major issue we had with ouir initial machine learning model was that we werent't thinking about our variables correctly.  Our model was ideally supposed to predict what the future years beyond our dataset had in store energy consumption-wise for China but given our lack of understanding it would only predict values that currently existed within the data set.  Our outcome shouldn’t be the current year it should be the year 5-10 years from that variable so instead of comparing say 1980 to itself in the model the year should operate on a year 5 years in the future.  Changing the y valuable and shifting it to 5 years in the future would help us achieve our ideal Time series forecast but we have found it to be very tricky.  We may change our model again but our general ideas about what we want remain the same!
 
-Our outcome shouldn’t be the current year it should be the year 5-10 years from that variable
+Below is a figure that better visualizes the extrapolation problem addressed earlier.
 
-Change the way we think about our independent variables
 
-Changing the y valuable and shifting it to 5 years in the future
-
-We will lose the amount of variables as the amount of years we predict in the future
-
-Losing 2016-2019 X values
-
-Pandas shift function
-
-Time series forecast – tricky
-
-Model remains the same but we are changing what our y value is through a pandas shift function 
 
 
 ###![Figure 1: Extrapolation Problem with Random Forest](https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
@@ -137,4 +125,4 @@ Despite assigning specific roles for week one, we found it was much more product
 
 Team member roles for Week 2
 
-We opted to blend all of the shaped roles into a more cooperative strategy where every portion of the project is worked on together as a group.  With that being said, Tajah and I worked primarily on helping with data analysis and the presentation aspect where Ashley dove deep into working through the code tied to our machine learning model and Thomas put in a great deal of time on our Postgres database integration.
+We opted to blend all of the shaped roles into a more cooperative strategy where every portion of the project is worked on together as a group.  With that being said, Tajah and I worked primarily on helping with data analysis for the machine learning model and the presentation aspect where Ashley dove deep into working through the code tied to our machine learning model and Thomas put in a great deal of time on our Postgres database integration.
