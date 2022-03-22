@@ -99,7 +99,7 @@ Tableau Public is what we will use as our visualization tool because we find the
 https://docs.google.com/presentation/d/1hcUUxudJCIKIiH2meyf5kHqM0MWkAN7eNCEKxKkjidY/edit?usp=sharing
 
 ## Communication Protocols 
-We have and will continue to communication primarily through Slack.  
+We have and will continue to communicate primarily through Slack.  
 Meeting times per the below zoom meeting schedule.
 
 Meeting Times 
