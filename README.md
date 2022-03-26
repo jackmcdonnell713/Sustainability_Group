@@ -8,9 +8,11 @@ Urbanization & our planet!
 
 For most of history, humans have lived in low-density, rural communities.  Only over the past few centuries have we witnessed "urbanization" or a shift from primarily low-density, rural settings dominated by agricultural production to more high-density, urban settings.  Further, very few countries have experienced exponential growth in urbanization over a short period of time like China has in recent decades.  
 
-Despite these observations, it is expected that by 2050, more than two-thirds of the global population will live in high-density, urban areas. We need to understand how urbanization, notably exponential growth in urbanization of select countries, impacts global demand for food and energy.  The purpose of our final project is to examine independent variables, such as human population, human population living in urban areas, GDP growth as an annual percentage, etc., in relation to metrics that measure food and energy usage.  One such dependent variable is energy consumption per capita (kWh) which is the first metric we are measuring in this week's deliverable.
+Despite these observations, it is expected that by 2050, more than two-thirds of the global population will live in high-density, urban areas. We need to understand how urbanization, notably exponential growth in urbanization of select countries, impacts global demand for food and energy.  The purpose of our final project is to examine independent variables, such as human population, human population living in urban areas, GDP growth as an annual percentage, etc., in relation to metrics that measure food and energy usage.  One such dependent variable is energy consumption per capita (kWh) which is the first metric we are measuring in the 1st week's deliverable.
 
 This analysis is important for economists and professionals in the oil, energy, and agricultural sectors who will be impacted by rapid global urbanization over the next 30 years.  We expect that the demand for energy and food will increase, and long-term solutions will need to be adopted to offset the anthropologic effects of urbanization on our planet due to deforestation for increased agricultural land use, notably in LATAM, and increased emissions due to rising global energy demands.  Fortunately, there are renewable energy sources that can be leveraged to offset some of the effects of urbanization in the coming years (i.e. renewable diesel, sustainable aviation fuel, electric cars, etc.).  This analysis will demonstrate the necessity of adopting cleaner, renewable energy sources, and the continued investment in agricultural technology which will enable the production of more food on less land, thus reducing the need for continued deforestation, especially in the rainforests of LATAM. 
+
+After testing this data it was found that projecting the next 50 years seemed to be a bit difficult. So we are interested in learning about the relationship between crude oil, alternative fuels, and factors that impact their demand and pricing. This is ever important, especially now, given Ukraine and Russia turmoil which has resulted in significantly higher and more volatile crude oil pricing. We anticipate a shift towards renewable fuel sources more quickly, which could have fewer negative anthropological effects on the environment than the consumption of crude oil.
 
 ### Description of our source data
 
@@ -36,10 +38,14 @@ This dataset provides total energy consumption by country by year, measured in q
 
 https://www.eia.gov/international/data/country/CHN/total-energy/total-energy-consumption?pd=44&p=0000000010000000000000000000000000000000000000000000000000u06&u=0&f=A&v=mapbubble&a=-&i=none&vo=value&t=C&g=none&l=249--38&s=315532800000&e=1546300800000&
 
+Since pivoting we have decided to use crude oil price which was obtained through Kaggle. The csv file contains crude oil daily pricing in USD from 2/3/2011 through 12/31/2019. There are 2198 rows of data, including the header row.
+
+We also explored other variables with our ARIMA model such as sustainability index and pricing of various RIN d-codes, specifically D3, D4, D5 and D6. The sustainability data was derived from Kaggle, while the RIN pricing data were derived from the Environmental Protection Agency, or EPA.
+
 
 ### Questions we hope to answer with these data
 
-We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experience similiar, exponential growth in urbanization over a short few decades.  
+We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experience similiar, exponential growth in urbanization over a short few decades. Since it is a bit difficult to forecast future urbanization, energy and food demand with this data set we've decided to want to learn how to conduct time series analysis with “out-of-sample” forecasting via supervised machine learning, specifically ARIMA. We will project crude oil pricing.
 
 
 ## Technologies Used
