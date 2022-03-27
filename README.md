@@ -14,6 +14,15 @@ This analysis is important for economists and professionals in the oil, energy, 
 
 After testing this data it was found that projecting the next 50 years seemed to be a bit difficult. So we are interested in learning about the relationship between crude oil, alternative fuels, and factors that impact their demand and pricing. This is ever important, especially now, given Ukraine and Russia turmoil which has resulted in significantly higher and more volatile crude oil pricing. We anticipate a shift towards renewable fuel sources more quickly, which could have fewer negative anthropological effects on the environment than the consumption of crude oil.
 
+Through discussions with several TAs and our course instructor, we learned of a more appropriate model for time series forecasting called ARIMA.  This is an ideal model for “out-of-sample” forecasting.  ARIMA is an acronym that stands for Autoregressive Integrated Moving Average.  Autoregression means that the model uses a dependent relationship between an observation and X number of lagged observations.  The I in ARIMA stands for integrated, meaning that the model utilizes difference between a single observation and the previous observation.  The RA in ARIMA stands for moving average, meaning that the model uses the dependency between an observation and the residual error from the moving average. 
+
+There are three parameters of ARIMA, specifically (p,d,q).  P refers to the lag order, or the number of lag observations included in the model. D refers to the degree of differencing, or the number of times the raw observations are differenced.   Q refers to the order of the moving average, or the size of the moving average window.  Each of these parameters are substituted with integers to indicate the type of ARMMA model being used.  If a zero is substituted for a parameter, that element will not be used in the ARIMA model.  
+
+When we fit the ARIMA model to our crude oil dataset, we learned that our data was best fit to ARIMA (0,1,0) which had the smallest AIC value compared to other fits.  
+![ARIMA fit]( https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/ARIMA%20fit.PNG)
+
+One limitation of ARIMA modeling, which we’ve mentioned already, is that it only utilizes a single variable.  For this reason, it’s worth noting that the VAR model doesn’t have this limitation, which is why we are eager to try this model out, too!
+
 ### Description of our source data
 
 For our first deliverable, our mockup database is comprised of four datasets which are listed below.  We expect that we will add additional dependent variables in future weeks. 
@@ -83,6 +92,18 @@ Please see the ERD below
 
 ![ERD](https://user-images.githubusercontent.com/91917546/159185623-d549e94f-03c0-479a-8ab4-54e99cc9b435.png)
 
+Moving forward with our new dataset we have still decided to use Postgres SQL as our Database storage. We created two tables in Postgres SQL using pdAdmin. The first table stores daily pricing for crude oil, and the seconds table stores daily pricing for renewable fuel D-codes D3, D4, D5, and D6.  
+
+![Postgres Crude Table](https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/Postgres%20table.PNG)
+
+![Postgres RIN Price Table](https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/Postgres%20table2.PNG)
+
+We joined our crude oil pricing data table with our RIN D-type pricing table.  Our output was a table showing crude pricing, alongside prices for D3, D4, D5 and D6 RIN prices.
+
+![Postgres Join](https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/Postgres%20join.PNG)
+
+![Entity Relationship Diagram](https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/Entity%20relationship%20diagram.PNG)
+
 
 ### Machine Learning
 We chose a supervised machine learning model, linear regression, for this analysis because our input data (GDP, urban population, urbanization) has a paired outcome (food demand, energy demand).  We can plug in Chinese urbanization data to train our model to predict outcomes in our India dataset.  This approach is more appropriate than unsupervised machine learning models in which there are no paired inputs and outcomes.
@@ -125,6 +146,8 @@ Meeting Times
 - Tuesday, 15 March @ 6 PM CST during class
 - Thursday, 17 March @ 6 PM CST during class
 - Saturday, 19 March @ 130 PM CST for approx 3 hours
+- Tuesday, 22 March @ 6PM CST during class
+- Thrusday, 24 March @ 6PM CST during Class 
 
 Team member roles for Week 1
 
@@ -141,3 +164,7 @@ Despite assigning specific roles for week one, we found it was much more product
 Team member roles for Week 2
 
 We opted to blend all of the shaped roles into a more cooperative strategy where every portion of the project is worked on together as a group.  With that being said, Tajah and I worked primarily on helping with data analysis for the machine learning model and the presentation aspect where Ashley dove deep into working through the code tied to our machine learning model and Thomas put in a great deal of time on our Postgres database integration.
+
+Team member roles for Week 3 
+
+Although still going with blended roles and assisting each other throughout this entire project Thomas worked on the presentation, Ashley worked on the Machine Learning Model, Jack worked on the Dashboard and Tajah worked on the ReadMe. 
