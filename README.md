@@ -125,8 +125,6 @@ A major issue we had with ouir initial machine learning model was that we werent
 Below is a figure that better visualizes the extrapolation problem addressed earlier.
 
 
-
-
 ###![Figure 1: Extrapolation Problem with Random Forest](https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
 
 ### Dashboard
