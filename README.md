@@ -45,7 +45,7 @@ We also explored other variables with our ARIMA model such as sustainability ind
 
 ### Questions we hope to answer with these data
 
-We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experience similiar, exponential growth in urbanization over a short few decades. Since it is a bit difficult to forecast future urbanization, energy and food demand with this data set we've decided to want to learn how to conduct time series analysis with “out-of-sample” forecasting via supervised machine learning, specifically ARIMA. We will project crude oil pricing.
+We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experience similiar, exponential growth in urbanization over a short few decades. Since it is a bit difficult to forecast future urbanization, energy and food demand with this data set we've decided to want to learn how to conduct time series analysis with “out-of-sample” forecasting via supervised machine learning, specifically ARIMA. With this we will try to project crude oil pricing.
 
 
 ## Technologies Used
@@ -58,7 +58,17 @@ We followed a similar process for our dependent variable, energy use, by first c
 
 Once both independent and dependent variables were created and concatenated into a single dataframe, we did some data scrubbing (dropping columns with null values, transposing the dataframe, renaming columns, etc).
 
+Prior to pivoting to our new datset we had selected several databases from World Bank and EIA which we believed would be useful in projecting China and India energy demand over time. Through the data exploration phase of the project, we learned that our datasets contained too few rows.
 
+Within the last week, we began looking for a new dataset that would satisfying our database row needs. While we could not find the same metrics as our original dataset, we did find a related dataset containing daily crude oil pricing.
+
+The analysis phase of the project helped us understand the strengths and weakness of several machine learning models. During this process, we explored a number of supervised machine learning models including regression analysis, random forests, regression-enhanced random forests (RERF), and autoregressive integrated moving average (ARIMA). 
+
+The model we are presenting as our final project is the ARIMA model.  We used two metrics to assess the quality of the ARIMA model, specifically MSE and SMAPE.  
+-	Mean squared error measures the difference between the predicted values and the actual values. The lesser the MSE, the closer the fit. In our model, the MSE is 1.77.
+-	SMAPE was also calculated to determine model accuracy. The Symmetric Mean Absolute Percentage Error, or SMAPE, is a measurement based on percentage errors. Like MSE, the lower the value of SMAPE, the higher the model accuracy. Because SMAPE is percentage based, it’s scale-dependent and can be used compare across datasets or models. In our model, the SMAPE is 1.50%. It will be fun to compare SMAPE between this ARIMA model, and a later VAR model.
+
+![Model Accuracy](https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/Accuracy.PNG)
 
 ### Database Storage
 Postgres SQL will be the Database storage, and we used PGAdmin to manipulate or data sources. We used but for our mockup this week we included a folder called "Resources" in our gitHub repository under the folder "SQL". We showed screen shots of the table creation and joins.
@@ -67,7 +77,6 @@ Using pgAdmin, we will export our table join from Postgres SQL to a csv file tha
 
 Includes at least two tables
 We created 3 tables, then thru joins combined all three tables on the yrs column - which we then exported as a csv - labeled 'testdata' and worked off of for the balance of our project
-
 
 Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
 Please see the ERD below
