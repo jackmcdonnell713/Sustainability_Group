@@ -132,37 +132,3 @@ Tableau Public is what we will use as our visualization tool because we find the
 
 https://docs.google.com/presentation/d/1hcUUxudJCIKIiH2meyf5kHqM0MWkAN7eNCEKxKkjidY/edit?usp=sharing
 
-## Communication Protocols 
-We have and will continue to communicate primarily through Slack.  
-Meeting times per the below zoom meeting schedule.
-
-Meeting Times 
-- Saturday, 5 March @ 10 AM EST via zoom  
-- We met this day for roughly 4 hours with all of us present and engaged.
-- Tuesday, 8 March @ 6 PM CST during class
-- Thursday, 10 March @ 6 PM CST during class
-- Tuesday, 15 March @ 6 PM CST during class
-- Thursday, 17 March @ 6 PM CST during class
-- Saturday, 19 March @ 130 PM CST for approx 3 hours
-- Tuesday, 22 March @ 6PM CST during class
-- Thrusday, 24 March @ 6PM CST during Class 
-
-Team member roles for Week 1
-
-Jack: X Role
-
-Tajah: Triangle
-
-Ashley: Circle
-
-Thomas: Square Role
-
-Despite assigning specific roles for week one, we found it was much more productive for all members to be actively involved in each process for the first week.  We all chipped in during the dataset selection, picking of technologies used, and construction of the machine learning model mockup.
-
-Team member roles for Week 2
-
-We opted to blend all of the shaped roles into a more cooperative strategy where every portion of the project is worked on together as a group.  With that being said, Tajah and I worked primarily on helping with data analysis for the machine learning model and the presentation aspect where Ashley dove deep into working through the code tied to our machine learning model and Thomas put in a great deal of time on our Postgres database integration.
-
-Team member roles for Week 3 
-
-Although still going with blended roles and assisting each other throughout this entire project Thomas worked on the presentation, Ashley worked on the Machine Learning Model, Jack worked on the Dashboard and Tajah worked on the ReadMe. 
