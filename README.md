@@ -130,5 +130,4 @@ Below is a figure that better visualizes the extrapolation problem addressed ear
 ### Dashboard
 Tableau Public is what we will use as our visualization tool because we find the program to be intuitive and fun to use.  Here is a link to our google slides that provide a brief outline for the presentation.
 
-https://docs.google.com/presentation/d/1hcUUxudJCIKIiH2meyf5kHqM0MWkAN7eNCEKxKkjidY/edit?usp=sharing
-
+https://docs.google.com/presentation/d/1EO2EdCrp69qmJVaqxIgXZg2SMTPYQMDGgBqxcXjjMMs/edit#slide=id.g11fbc2d6cb2_0_10
