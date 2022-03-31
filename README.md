@@ -67,7 +67,7 @@ We followed a similar process for our dependent variable, energy use, by first c
 
 Once both independent and dependent variables were created and concatenated into a single dataframe, we did some data scrubbing (dropping columns with null values, transposing the dataframe, renaming columns, etc).
 
-Prior to pivoting to our new datset we had selected several databases from World Bank and EIA which we believed would be useful in projecting China and India energy demand over time. Through the data exploration phase of the project, we learned that our datasets contained too few rows.  Furthermore, upon further inspection the accuracy of the variables measurements come into quesation as well - for example, the measurement for global oil consumption can often vary depending on source.  
+Prior to pivoting to our new datset we had selected several databases from World Bank and EIA which we believed would be useful in projecting China and India energy demand over time. Through the data exploration phase of the project, we learned that our datasets contained too few rows.  Furthermore, upon further inspection the accuracy of the variables measurements come into question as well - for example, the measurement for global oil consumption can often vary depending on source.  
 
 Within the last week, we began looking for a new dataset that would satisfying our database row needs. While we could not find the same metrics as our original dataset, we did find a related dataset containing daily crude oil pricing and the Dow Jones Sustainability index.  Fortunately, as previously mentioned the measurement of the index pricing is absolute, meaning we can be nearly 100% sure of the accuracy of each measurement.
 
