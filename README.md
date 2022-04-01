@@ -51,11 +51,9 @@ Since pivoting we have decided to use crude oil price which was obtained through
 
 We also explored other variables with our ARIMA model such as sustainability index and pricing of various RIN d-codes, specifically D3, D4, D5 and D6. The sustainability data was derived from Kaggle, while the RIN pricing data were derived from the Environmental Protection Agency, or EPA.
 
-
 ### Questions we hope to answer with these data
 
 We would like to answer the question "how urbanization impacts demand for food and energy" by using Chinese urbanization as a case study.  Assuming key assumptions are met (ie assumptions regarding pace of urbanization, energy demands, diet of country, etc.), our Chinese demand model could be used as a proxy for similiar countries who are expected to experience similiar, exponential growth in urbanization over a short few decades. Since it is a bit difficult to forecast future urbanization, energy and food demand with this data set we've decided to want to learn how to conduct time series analysis with “out-of-sample” forecasting via supervised machine learning, specifically ARIMA. With this we will try to project the Dow Jones Sustainability Index pricing.
-
 
 ## Technologies Used
 ### Data Cleaning and Analysis
@@ -105,7 +103,6 @@ We joined our crude oil pricing data table with our RIN D-type pricing table.  O
 
 ![Entity Relationship Diagram](https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/Entity%20relationship%20diagram.PNG)
 
-
 ### Machine Learning
 We chose a supervised machine learning model, linear regression, for this analysis because our input data (GDP, urban population, urbanization) has a paired outcome (food demand, energy demand).  We can plug in Chinese urbanization data to train our model to predict outcomes in our India dataset.  This approach is more appropriate than unsupervised machine learning models in which there are no paired inputs and outcomes.
 
@@ -124,7 +121,6 @@ Our current data set, 'testdata' has changed from the aforementioned dataset.  W
 A major issue we had with ouir initial machine learning model was that we werent't thinking about our variables correctly.  Our model was ideally supposed to predict what the future years beyond our dataset had in store energy consumption-wise for China but given our lack of understanding it would only predict values that currently existed within the data set.  Our outcome shouldn’t be the current year, it should be the year 5-10 years from the given variable. Instead of comparing 1980 to itself in the model, the year should operate 5 years in the future and measure the delta between the year 1980 and the year 1985.  Our ARIMA model solves this in part by thru the d (or differencing) parameter - which measures the number of times the raw observations are differenced.  In turn, the instances are not limited to a straight line time comparison as they are in standard linear regresion, but instsances are compared interchangably across the time series.  Changing the y valuable and shifting it to 5 years in the future would help us achieve our ideal Time series forecast but we have found it to be very tricky.  We investigated the issue further and it lead to one of a few pivot points in our project.
 
 Below is a figure that better visualizes the extrapolation problem addressed earlier.
-
 
 ###![Figure 1: Extrapolation Problem with Random Forest](https://github.com/jackmcdonnell713/Sustainability_Group/blob/main/ExtrapolationProblem.PNG)
 
