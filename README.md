@@ -74,8 +74,8 @@ Within the last week, we began looking for a new dataset that would satisfying o
 The analysis phase of the project helped us understand the strengths and weaknesses of several machine learning models. During this process, we explored a number of supervised machine learning models including regression analysis, random forests, regression-enhanced random forests (RERF), and autoregressive integrated moving average (ARIMA). 
 
 The model we are presenting as our final project is the ARIMA model.  We used two metrics to assess the quality of the ARIMA model, specifically MSE and SMAPE.  
--	Mean squared error measures the difference between the predicted values and the actual values. The lesser the MSE, the closer the fit. In our model, the MSE is 1.77.
--	SMAPE was also calculated to determine model accuracy. The Symmetric Mean Absolute Percentage Error, or SMAPE, is a measurement based on percentage errors. Like MSE, the lower the value of SMAPE, the higher the model accuracy. Because SMAPE is percentage based, it’s scale-dependent and can be used compare across datasets or models. In our model, the SMAPE is 1.50%. It will be fun to compare SMAPE between this ARIMA model, and a later VAR model.
+-	Mean squared error measures the difference between the predicted values and the actual values. The lesser the MSE, the closer the fit. In our model, the MSE is 3.08.
+-	SMAPE was also calculated to determine model accuracy. The Symmetric Mean Absolute Percentage Error, or SMAPE, is a measurement based on percentage errors. Like MSE, the lower the value of SMAPE, the higher the model accuracy. Because SMAPE is percentage based, it’s scale-dependent and can be used compare across datasets or models. In our model, the SMAPE is .59%. It will be fun to compare SMAPE between this ARIMA model, and a later VAR model.
 -	We did not include a confusion matrix for our ARIMA model because ARIMA is a time-series forecasting machine learning model (versus a classification machine learning model).
 
 ![Model Accuracy](https://github.com/AMHembrough/Final-Projcet/blob/main/Resources/Accuracy.PNG)
